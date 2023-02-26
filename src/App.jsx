@@ -1,7 +1,8 @@
 import "./App.css";
+import Main from "./SectionMain";
 
 function App() {
-  return;
+  return <Main />;
 }
 
 export default App;

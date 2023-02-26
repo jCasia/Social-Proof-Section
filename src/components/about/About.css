@@ -1,0 +1,20 @@
+.about {
+  grid-area: about;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  padding-right: 3rem;
+}
+
+.heading {
+  font-size: 3.5rem;
+  color: var(--color-very-dark-magenta);
+}
+
+.text {
+  color: var(--color-grayish-magenta);
+  font-size: 1.2rem;
+  line-height: 1.25;
+}
