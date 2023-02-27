@@ -23,3 +23,21 @@
 
   max-width: 70rem;
 }
+
+@media only screen and (max-width: 71.875em) {
+  .main-content {
+    margin: 4rem 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 62.5em) {
+  .main-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.3fr 0.5fr;
+    grid-template-areas:
+      "about"
+      "rating"
+      "test";
+    gap: 3rem;
+  }
+}

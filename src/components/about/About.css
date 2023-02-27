@@ -18,3 +18,10 @@
   font-size: 1.1rem;
   line-height: 1.25;
 }
+
+@media only screen and (max-width: 62.5em) {
+  .about {
+    padding: 0;
+    text-align: center;
+  }
+}
