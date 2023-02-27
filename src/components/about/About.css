@@ -5,7 +5,7 @@
   flex-direction: column;
   gap: 1.5rem;
   justify-content: center;
-  padding-right: 3rem;
+  padding-right: 4rem;
 }
 
 .heading {
@@ -15,6 +15,6 @@
 
 .text {
   color: var(--color-grayish-magenta);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.25;
 }

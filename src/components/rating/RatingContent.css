@@ -1,0 +1,36 @@
+.rating-container {
+  display: flex;
+  background-color: var(--color-light-grayish-magenta);
+  gap: 2rem;
+  padding: 1.25rem 2.5rem 1.25rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.05rem;
+}
+
+.rating-container:nth-child(1) {
+  align-self: flex-start;
+}
+.rating-container:nth-child(2) {
+  align-self: center;
+}
+
+.rating-container:nth-child(3) {
+  align-self: flex-end;
+}
+
+.rating-text-container {
+  font-weight: 700;
+  color: var(--color-very-dark-magenta);
+}
+
+.rating-container:nth-child(1) .rating-text-container {
+  padding-right: 2rem;
+}
+.rating-container:nth-child(3) .rating-text-container {
+  padding-right: 1.75rem;
+}
+
+.star-container {
+  display: flex;
+  gap: 0.5rem;
+}

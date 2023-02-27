@@ -1,11 +1,24 @@
 import React from "react";
 import "./Rating.css";
+import RatingContent from "./RatingContent";
 
 const Rating = () => {
+  const reviewer = [
+    {
+      reviewer: "Reviews",
+    },
+    { reviewer: "Report Guru" },
+    {
+      reviewer: "BestTech",
+    },
+  ];
+
   return (
-    <div className="rating">
-      <p>test 3</p>
-    </div>
+    <section className="rating">
+      {reviewer.map((review) => (
+        <RatingContent reviewer={review.reviewer} key={Math.random()} />
+      ))}
+    </section>
   );
 };
 

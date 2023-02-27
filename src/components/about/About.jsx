@@ -7,10 +7,10 @@ const About = () => {
     text: "We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.",
   };
   return (
-    <div className="about">
+    <section className="about">
       <h1 className="heading">{content.heading}</h1>
       <p className="text">{content.text}</p>
-    </div>
+    </section>
   );
 };
 

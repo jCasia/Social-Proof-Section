@@ -7,9 +7,11 @@ import Testimonial from "./components/testimonial/Testimonial";
 const Main = () => {
   return (
     <main className="main">
-      <About />
-      <Rating />
-      <Testimonial />
+      <div className="main-content">
+        <About />
+        <Rating />
+        <Testimonial />
+      </div>
     </main>
   );
 };
