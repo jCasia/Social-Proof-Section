@@ -7,8 +7,8 @@
 
 ### I built this project using:
 
--React
--CSS Gid
+- React
+- CSS Gid
 
 ### Some screenshot of this project:
 
